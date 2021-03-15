@@ -1,0 +1,70 @@
+body{
+    width: 100%;
+    height: auto;
+    margin:0;
+    font-family: 'Newsreader', serif;
+    background-image: url(img/download.gif);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+li {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+li a:hover:not(.active) {
+    opacity: 1;
+    font-size: 16px;
+    color: #ffcc5f;
+}
+.active {
+    background-color: #4CAF50;
+    opacity: 1;
+}
+.pasekNawigacji{
+    text-transform: uppercase;
+}
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1000px;
+    height: auto;
+}
+.napisError{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    margin-top: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 250px;
+    background-image: url(img/t%C5%82o.jpg);
+    border: 1px solid #ffcc5f;
+    opacity: 0.8;
+}
+.napisError p{
+    letter-spacing: 2px;
+}
+
