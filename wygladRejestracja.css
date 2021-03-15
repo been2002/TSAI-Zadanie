@@ -1,0 +1,134 @@
+body{
+    font-family: 'Newsreader', serif;
+    background-image: url(img/zdj3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+}
+.wrapper{
+    width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#naglowekMT2{
+    width: 100%;
+    font-family: 'Reggae One', cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 140px;
+    font-size: 40px;
+    opacity: 0.8;
+    color: white;
+}
+#naglowekMT2:hover{
+    opacity: 1;
+    cursor: pointer;
+    font-size: 44px;
+}
+.footer{
+    height: 130px;
+    background-image: url(img/t%C5%82o.jpg);
+    border-top: 2px solid #ffcc5f;
+    color: #ffcc5f;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.footer p{
+    padding-top: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+li {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+li a:hover:not(.active) {
+    opacity: 1;
+    font-size: 16px;
+    color: #ffcc5f;
+}
+.active {
+    background-color: #4CAF50;
+    opacity: 1;
+}
+.pasekNawigacji{
+    text-transform: uppercase;
+}
+.regNowCenter{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 84px;
+    width: 500px;
+    height: auto;
+}
+.napisRejestracja{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Reggae One', cursive;
+    border-bottom: 2px solid #ffcc5f;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.contentReg{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 40px 10px 20px 10px;
+    background-image: url(img/t%C5%82o.jpg);
+    color: #ffcc5f;
+    margin-top: 56px;
+    text-transform: uppercase;
+    font-size: 17px;
+    border: 1px solid #ffcc5f;
+}
+.contentReg input{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.przyciskZaloguj input{
+    margin-top: 50px;
+    color: white;
+    background-color: #4CAF50;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    font-family: 'Reggae One', cursive;
+}
+.przyciskZaloguj input:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
