@@ -1,0 +1,123 @@
+body{
+    font-family: 'Newsreader', serif;
+    background-image: url(img/zdj3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+}
+#wrapper{
+    width: 1100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#naglowekMT2{
+    width: 100%;
+    font-family: 'Reggae One', cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 140px;
+    font-size: 40px;
+    opacity: 0.8;
+    color: white;
+}
+#naglowekMT2:hover{
+    opacity: 1;
+    cursor: pointer;
+    font-size: 44px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+li {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+li a:hover:not(.active) {
+    opacity: 1;
+    font-size: 16px;
+    color: #ffcc5f;
+}
+.active {
+    background-color: #4CAF50;
+    opacity: 1;
+}
+#footer{
+    margin-top: 160px;
+    height: 130px;
+    background-image: url(img/t%C5%82o.jpg);
+    color: #ffcc5f;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-top: 2px solid #ffcc5f;
+}
+#footer p{
+    padding-top: 50px;
+}
+.topBar{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.napisSupport p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-family: 'Reggae One', cursive;
+    font-size: 40px;
+    color: white;
+    width: 370px;
+    border-bottom: 2px solid #ffcc5f;
+}
+.napisSupport{
+    margin-top: 50px;
+}
+.contentAktualnosci{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ffcc5f;
+    padding: 10px;
+    width: 500px;
+    height: 420px;
+    color: white;
+    background-image: url(img/t%C5%82o.jpg);
+}
+.contentAktualnosci h3{
+    padding: 15px;
+    color: #ffcc5f;
+}
+.topBar input{
+    width: 400px;
+}
+.opisSyt input{
+    height: 60px;
+    margin-bottom: 20px;
+}
