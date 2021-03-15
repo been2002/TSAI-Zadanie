@@ -1,0 +1,242 @@
+body{
+    font-family: 'Newsreader', serif;
+    background-image: url(img/zdj3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+}
+#wrapper{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#naglowekMT2{
+    width: 100%;
+    font-family: 'Reggae One', cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 140px;
+    font-size: 40px;
+    opacity: 0.8;
+    color: white;
+}
+#naglowekMT2:hover{
+    opacity: 1;
+    cursor: pointer;
+    font-size: 44px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+li {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+li a:hover:not(.active) {
+    opacity: 1;
+    font-size: 16px;
+    color: #ffcc5f;
+}
+.active {
+    background-color: #4CAF50;
+    opacity: 1;
+}
+#logNow{
+    border: 1px solid #ffcc5f;
+    width: 235px;
+    float: left;
+    color: white;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+    background-image: url(img/t%C5%82o.jpg);
+}
+#contentMiddle{
+    border: 1px solid #ffcc5f;
+    background-image: url(img/t%C5%82o.jpg);
+    float: left;
+    color: white;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 700px;
+    margin-bottom: 80px;
+}
+#rankingRight{
+    background-image: url(img/t%C5%82o.jpg);
+    border: 1px solid #ffcc5f;
+    float: left;
+    color: white;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.allAktualnosci{
+    width: 550px;
+}
+.allRanking{
+    width: 145px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#napisLogowanie{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 6px 10px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Reggae One', cursive;
+    border-bottom: 2px solid #ffcc5f;
+}
+input{
+    margin-top: 3px;
+    padding: 3px;
+}
+.logowanielabel{
+    font-size: 12px;
+}
+.przyciskZaloguj{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.przyciskZaloguj input{
+    margin-top: 20px;
+    color: white;
+    background-color: #4CAF50;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    font-family: 'Reggae One', cursive;
+}
+.przyciskZaloguj input:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.przypomnij a {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    color:#ffcc5f;
+}
+.yt i{
+    padding: 10px;
+}
+.fb i{
+    padding: 10px;
+}
+.ig i{
+    padding: 10px;
+}
+.napisAktualnosci p{
+    font-family: 'Reggae One', cursive;
+    font-size: 40px;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding: 40px 15px 5px 15px;
+    margin-top: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #ffcc5f;
+}
+.contentAktualnosci{
+    padding: 5px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #ffcc5f;
+    letter-spacing: 1px;
+}
+.allRanking{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.napisRanking p{
+    width: 120px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 3px;
+    padding: 0px 10px 5px 10px;
+    border-bottom: 2px solid #ffcc5f;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Reggae One', cursive;
+}
+#footer{
+    height: 130px;
+    background-image: url(img/t%C5%82o.jpg);
+    color: #ffcc5f;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-top: 2px solid #ffcc5f;
+}
+#footer p{
+    padding-top: 50px;
+}
+.logowanielabel{
+    margin-top: 30px;
+}
+.lowBar h2{
+    font-family: 'Reggae One', cursive;
+    color: white;
+    border-bottom: 2px solid #ffcc5f;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 15px 5px 15px;
+    font-size: 25px;
+}
+.tabelaRanking{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
